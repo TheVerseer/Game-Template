@@ -109,6 +109,10 @@ File types:
 
 ```toml
 std = "roblox"
+
+[lints]
+unused_variable = "allow"
+roblox_incorrect_roact_usage = "allow"
 ```
 
 #### Update `settings.json` in VS Code:
