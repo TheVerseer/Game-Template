@@ -5,6 +5,5 @@ registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
-Promise = "evaera/promise@4.0.0"
-Janitor = "howmanysmall/janitor@1.18.3"
-Roact = "roblox/roact@1.4.4"
+
+[server-dependencies]
