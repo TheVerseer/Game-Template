@@ -176,13 +176,20 @@ wally install
 
 #### Update `default.project.json` to include:
 
+For `[dependencies]` (shared packages/dependencies)
 ```json
-{
-  "replicatedStorage": {
-    "packages": "Packages"
-  },
-  "serverScriptService": {
-    "serverPackages": "ServerPackages"
+"ReplicatedStorage": {
+  "SharedPackages": {
+    "$path": "Packages"
+  }
+}
+```
+
+For `[server-dependencies]` (server only packages/dependencies)
+```json
+"ServerScriptService": {
+  "ServerPackages": {
+    "$path": "ServerPackages"
   }
 }
 ```
