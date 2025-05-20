@@ -1,1 +1,5 @@
 std = "roblox"
+
+[lints]
+unused_variable = "allow"
+roblox_incorrect_roact_usage = "allow"
